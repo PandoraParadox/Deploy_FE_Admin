@@ -1,0 +1,368 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Megan Fox",
+      "email": "kyrie@gmail.com",
+      "balance": 8420030000,
+      "address": "quangngai",
+      "date": "16/01/2010"
+    },
+    {
+      "id": "3",
+      "name": "Kyrie Irving",
+      "email": "kyrie@gmail.com",
+      "balance": 3240000000,
+      "address": "quangngai",
+      "date": "17/01/2010"
+    },
+    {
+      "id": "4",
+      "name": "Gordon Buda",
+      "email": "budahaha@gmail.com",
+      "balance": 200500000,
+      "address": "quangngai",
+      "date": "18/01/2010"
+    },
+    {
+      "id": "5",
+      "name": "Connor McDavid",
+      "email": "connor@gmail.com",
+      "balance": 1400000000,
+      "address": "quangngai",
+      "date": "19/01/2010"
+    },
+    {
+      "id": "6",
+      "name": "Mary Jane",
+      "email": "auroido@gmail.com",
+      "balance": 3000000000,
+      "address": "quangngai",
+      "date": "20/01/2010"
+    },
+    {
+      "id": "7",
+      "name": "Maici Foa",
+      "email": "maici@gmail.com",
+      "balance": 120000000,
+      "address": "quangngai",
+      "date": "21/01/2010"
+    },
+    {
+      "id": "8",
+      "name": "Rofida Ko",
+      "email": "rofida@gmail.com",
+      "balance": 150000000,
+      "address": "quangngai",
+      "date": "22/01/2010"
+    },
+    {
+      "id": "9",
+      "name": "Rick Jox",
+      "email": "rick@gmail.com",
+      "balance": 100000000,
+      "address": "quangngai",
+      "date": "23/01/2010"
+    },
+    {
+      "id": "10",
+      "name": "Alice Die",
+      "email": "alice@gmail.com",
+      "balance": 173000000,
+      "address": "quangngai",
+      "date": "24/01/2010"
+    },
+    {
+      "id": "11",
+      "name": "KunFu Ori",
+      "email": "kunfu@gmail.com",
+      "balance": 120400000,
+      "address": "quangngai",
+      "date": "25/01/2010"
+    },
+    {
+      "id": "12",
+      "name": "Madam Ngo",
+      "email": "madam@gmail.com",
+      "balance": 1000559250,
+      "address": "quangngai",
+      "date": "26/01/2010"
+    },
+    {
+      "id": "13",
+      "name": "Tired O",
+      "email": "tired@gmail.com",
+      "balance": 106010900,
+      "address": "quangngai",
+      "date": "27/01/2010"
+    },
+    {
+      "id": "14",
+      "name": "Jeck is",
+      "email": "jeck@gmail.com",
+      "balance": 159192599,
+      "address": "quangngai",
+      "date": "28/01/2010"
+    },
+    {
+      "id": "15",
+      "name": "Doramon",
+      "email": "doramon@gmail.com",
+      "balance": 198528585,
+      "address": "quangngai",
+      "date": "29/01/2010"
+    },
+    {
+      "id": "16",
+      "name": "Nobita",
+      "email": "nobita@gmail.com",
+      "balance": 1695992592,
+      "address": "quangngai",
+      "date": "30/01/2010"
+    },
+    {
+      "id": "17",
+      "name": "Naruto",
+      "email": "naruto@gmail.com",
+      "balance": 1592952959,
+      "address": "quangngai",
+      "date": "31/01/2010"
+    },
+    {
+      "id": "18",
+      "name": "Shishuka",
+      "email": "shishuka@gmail.com",
+      "balance": 139959520,
+      "address": "quangngai",
+      "date": "02/01/2010"
+    },
+    {
+      "id": "19",
+      "name": "Chaien",
+      "email": "chaien@gmail.com",
+      "balance": 125152949,
+      "address": "quangngai",
+      "date": "01/01/2010"
+    },
+    {
+      "id": "20",
+      "name": "Nice Sir",
+      "email": "nice@gmail.com",
+      "balance": 125135939,
+      "address": "quangngai",
+      "date": "04/01/2010"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Pinner Qing Dyna",
+      "category": "Antique",
+      "price": 83000000000,
+      "time": "2025-03-20T19:33"
+    },
+    {
+      "id": "2",
+      "name": "Cheristie",
+      "category": "Antique",
+      "price": 23000000000,
+      "time": "15:12"
+    },
+    {
+      "id": "3",
+      "name": "Ming Dynasty water vase",
+      "category": "Antique",
+      "price": 12000000000,
+      "time": "21:13"
+    },
+    {
+      "id": "4",
+      "name": "Himalaya Crocodile Retourné Kelly",
+      "category": "Bag",
+      "price": 10000000000,
+      "time": "15:02"
+    },
+    {
+      "id": "5",
+      "name": "Hermès Sellier Mosaique Kelly",
+      "category": "Bag",
+      "price": 8600000000,
+      "time": "16:02"
+    },
+    {
+      "id": "6",
+      "name": "Faubourg Birkin",
+      "category": "Bag",
+      "price": 7800000000,
+      "time": "02:08"
+    },
+    {
+      "id": "7",
+      "name": "Louis XVI Gilded Clock",
+      "category": "Antique",
+      "price": 5400000000,
+      "time": "09:45"
+    },
+    {
+      "id": "8",
+      "name": "Imperial Russian Fabergé Egg",
+      "category": "Antique",
+      "price": 9800000000,
+      "time": "18:20"
+    },
+    {
+      "id": "9",
+      "name": "Qing Dynasty Jade Seal",
+      "category": "Antique",
+      "price": 17500000000,
+      "time": "07:30"
+    },
+    {
+      "id": "10",
+      "name": "Ming Dynasty Blue and White Plate",
+      "category": "Antique",
+      "price": 8900000000,
+      "time": "14:50"
+    },
+    {
+      "id": "11",
+      "name": "Hermès Limited Edition Constance",
+      "category": "Bag",
+      "price": 7200000000,
+      "time": "10:20"
+    },
+    {
+      "id": "12",
+      "name": "Chanel Diamond Forever Classic",
+      "category": "Bag",
+      "price": 6500000000,
+      "time": "19:10"
+    },
+    {
+      "id": "13",
+      "name": "Louis Vuitton Urban Satchel",
+      "category": "Bag",
+      "price": 7800000000,
+      "time": "11:35"
+    },
+    {
+      "id": "14",
+      "name": "Gucci Sylvie 1969 Crocodile",
+      "category": "Bag",
+      "price": 5600000000,
+      "time": "22:25"
+    },
+    {
+      "id": "15",
+      "name": "Ancient Egyptian Gold Bracelet",
+      "category": "Antique",
+      "price": 6200000000,
+      "time": "17:40"
+    },
+    {
+      "id": "16",
+      "name": "Roman Empire Gold Coin Collection",
+      "category": "Antique",
+      "price": 7400000000,
+      "time": "05:55"
+    },
+    {
+      "id": "17",
+      "name": "Chanel Métiers d'Art Bag",
+      "category": "Bag",
+      "price": 8400000000,
+      "time": "08:15"
+    },
+    {
+      "id": "18",
+      "name": "Dior Lady Dior Crocodile",
+      "category": "Bag",
+      "price": 7700000000,
+      "time": "12:05"
+    },
+    {
+      "id": "19",
+      "name": "Qing Dynasty Bronze Censer",
+      "category": "Antique",
+      "price": 9300000000,
+      "time": "16:45"
+    },
+    {
+      "id": "20",
+      "name": "Victorian Silver Tea Set",
+      "category": "Antique",
+      "price": 5100000000,
+      "time": "20:35"
+    },
+    {
+      "id": "21",
+      "name": "123",
+      "price": "123",
+      "time": "123",
+      "category": "bag"
+    },
+    {
+      "id": "22",
+      "name": "seok kyu cheol",
+      "price": "300000",
+      "time": "12:90",
+      "category": "watch"
+    },
+    {
+      "id": "23",
+      "name": "Mai Hoang Lan",
+      "price": "1",
+      "time": "12/12/2025",
+      "category": "antique"
+    },
+    {
+      "id": "25",
+      "name": "kuronami vandal",
+      "price": "2475",
+      "time": "2025-02-20 22:11",
+      "category": "watch"
+    },
+    {
+      "id": "26",
+      "name": "hi",
+      "price": "123",
+      "time": "2025-02-21T18:16",
+      "category": "watch"
+    },
+    {
+      "id": "1",
+      "name": "sdads",
+      "price": "2321",
+      "time": "2025-02-23T20:14",
+      "category": "watch"
+    },
+    {
+      "id": "e5e2",
+      "name": "213",
+      "price": "123",
+      "time": "2025-02-24T17:23",
+      "category": "antique"
+    },
+    {
+      "id": "03a4",
+      "name": "dfdsfsdfsd",
+      "price": "0",
+      "time": "",
+      "category": "watch"
+    },
+    {
+      "id": "57e3",
+      "name": "fasfaf",
+      "startingPrice": "0",
+      "auctionTime": "",
+      "category": "watch"
+    },
+    {
+      "id": "f611",
+      "name": "ffdsfdsf",
+      "startingPrice": "232",
+      "auctionTime": "2025-02-24T17:31",
+      "category": "watch"
+    }
+  ]
+}

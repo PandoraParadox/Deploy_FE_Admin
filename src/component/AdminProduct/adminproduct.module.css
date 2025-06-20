@@ -1,0 +1,312 @@
+.app {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f5f7fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar {
+  width: 280px;
+  background: linear-gradient(135deg, #3a7bd5 0%, #00d2ff 100%);
+  color: white;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebarHeader {
+  margin-bottom: 2.5rem;
+}
+
+.adminTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+
+.navMenu {
+  flex: 1;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.navItem:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.navItem.active {
+  background-color: rgba(255, 255, 255, 0.25);
+  font-weight: 500;
+}
+
+.navIcon {
+  margin-right: 12px;
+  font-size: 1.1rem;
+}
+
+.userProfile {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-top: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.userProfile:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.profileImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.profileInfo {
+  flex: 1;
+}
+
+.profileName {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.profileEmail {
+  margin: 0;
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.logoutIcon {
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 2rem;
+  overflow-x: auto;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  margin: 0;
+}
+
+
+.stats {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.stat {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  margin-right: 1.5rem;
+  text-align: center;
+}
+
+.stat h3 {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  margin: 0 0 0.5rem 0;
+}
+
+.stat p {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #3a7bd5;
+  margin: 0;
+}
+
+.searchBar input {
+  width: 76%;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.addProductIcon {
+  width: 120px;
+  height: 40px;
+  background-color: #7a7878;
+  border: none;
+  border-radius: 5px;
+  margin-left: 23px;
+  color: white;
+  font-size: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.addProductIcon:hover {
+  background-color: #575555;
+  transition: 10ms;
+}
+
+.addProduct:hover {
+  background-color: #5a5252;
+}
+
+.scrollableDiv {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.userTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.userTable thead {
+  background-color: #f8f9fa;
+}
+
+.userTable th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: #34495e;
+  border-bottom: 2px solid #eee;
+}
+
+.userTable td {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  color: #2c3e50;
+}
+
+.uidCell {
+  font-family: monospace;
+  font-size: 0.85rem;
+  color: #7f8c8d;
+}
+
+.buttonAdmin {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.actions button {
+  margin-right: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.edit,
+.delete {
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.edit {
+  background-color: #e3f2fd;
+  color: #1976d2;
+}
+
+.delete {
+  background-color: #ffebee;
+  color: #d32f2f;
+}
+
+.edit:hover {
+  background-color: #bbdefb;
+}
+
+.delete:hover {
+  background-color: #ffcdd2;
+}
+
+.notificationAlert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.notification {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.notificationButton {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btnConfirm,
+.btnCancel {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btnConfirm {
+  background-color: #28a745;
+  color: white;
+}
+
+.btnConfirm:hover {
+  background-color: #218838;
+}
+
+.btnCancel {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btnCancel:hover {
+  background-color: #c82333;
+}
