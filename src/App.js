@@ -9,6 +9,8 @@ import UpdateUser from './component/UpdateUser/index';
 import AddProduct from './component/AddProduct/index';
 import Login from './component/Login';
 import TransactionHistory from './component/TransactionHistory/index';
+import { Navigate } from "react-router-dom";
+
 
 const PrivateRoute = ({ children }) => {
   const { authToken } = useAuth();
