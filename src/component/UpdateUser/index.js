@@ -38,6 +38,26 @@ const UpdateUser = () => {
   useEffect(() => {
     const fetchUser = async () => {
       try {
+        const userRes = await axiosInstance.get(`${process.env.REACT_APP_APP_API_URL}/api/v1/user/${uid}`);
+        setUsers(prev => ({
+          ...prev,
+          name: userRes.data.displayName || "",
+          email: userRes.data.email || ""
+        }));
+
+
+      } catch (err) {
+        console.error("Lỗi fetch dữ liệu:", err);
+      }
+    };
+
+    if (uid) {
+      fetchUser();
+    }
+  }, [uid]);
+  useEffect(() => {
+    const fetchUser = async () => {
+      try {
         const userRes = await axiosInstance.get(`${process.env.REACT_APP_APP_API_URL}/api/v1/user/${uids}`);
         setuser(userRes.data);
       } catch (err) {
