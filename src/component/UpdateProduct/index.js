@@ -30,8 +30,12 @@ function UpdateProduct() {
         axiosInstance.get(`${process.env.REACT_APP_APP_API_URL}/api/v1/products/${id}`)
             .then(res => {
                 const data = res.data.data;
+                const rawAuctionTime = data.auctionTime.replace(" ", "T");
+                const rawDate = new Date(rawAuctionTime);
+                const formattedDate = rawDate.toISOString().slice(0, 16);
                 setProduct({
                     ...data,
+                    auctionTime: formattedDate,
                     startingPrice: data.startingPrice.toString()
                 });
             })
