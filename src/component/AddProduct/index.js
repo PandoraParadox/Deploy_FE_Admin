@@ -99,9 +99,9 @@ function AddProduct() {
             });
 
             const plainPrice = prod.startingPrice.replace(/[^\d]/g, '');
-            const localTime = new Date(prod.auctionTime);
-            const vnTime = new Date(localTime.getTime() - localTime.getTimezoneOffset() * 60000);
-            const formattedTime = vnTime.toISOString().slice(0, 19).replace("T", " ");
+            const rawDate = new Date(prod.auctionTime);
+            rawDate.setHours(rawDate.getHours() - 7); 
+            const formattedTime = rawDate.toISOString().slice(0, 19).replace("T", " ");
 
             formData.append("name", prod.name);
             formData.append("startingPrice", plainPrice);
