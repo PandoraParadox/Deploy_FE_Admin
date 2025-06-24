@@ -87,7 +87,6 @@ function UpdateProduct() {
             return;
         }
         const rawDate = new Date(product.auctionTime);
-        rawDate.setHours(rawDate.getHours() - 7);
         const formattedTime = rawDate.toISOString().slice(0, 19).replace("T", " ");
 
 
