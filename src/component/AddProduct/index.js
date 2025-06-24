@@ -99,10 +99,11 @@ function AddProduct() {
             });
 
             const plainPrice = prod.startingPrice.replace(/[^\d]/g, '');
+            const formattedTime = prod.auctionTime.replace("T", " ") + ":00"
 
             formData.append("name", prod.name);
             formData.append("startingPrice", plainPrice);
-            formData.append("auctionTime", prod.auctionTime);
+            formData.append("auctionTime", formattedTime);
             formData.append("category", prod.category);
             formData.append("description", prod.description);
 
