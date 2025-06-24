@@ -100,7 +100,6 @@ function AddProduct() {
 
             const plainPrice = prod.startingPrice.replace(/[^\d]/g, '');
             const rawDate = new Date(prod.auctionTime);
-            rawDate.setHours(rawDate.getHours() - 7); 
             const formattedTime = rawDate.toISOString().slice(0, 19).replace("T", " ");
 
             formData.append("name", prod.name);
